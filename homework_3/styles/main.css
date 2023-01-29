@@ -1,0 +1,51 @@
+@import url("reset.css");
+body{
+    background-color:darkgrey; 
+}
+.header, p{
+    color: green;
+}
+.lorem{
+    color: red;
+}
+a{
+    color: blue
+}
+
+#text1{
+    color: yellow;
+}
+
+
+[title]{
+    color: aquamarine;
+}
+div.text_3{
+    color: blueviolet;
+}
+.text_4,
+.text_5{
+    color:darkorange;
+}
+.all_text *{
+    color: rgb(0, 68, 255);
+}   
+.home_work .home_work_1{
+    color: blanchedalmond;
+}
+.original_menu > p{
+    color: red;
+}
+.main_block ~ div ~ div{
+    color: rgb(0, 149, 255);
+}
+.main + div + div{
+    color: red;
+}
+.main + div{
+    color: black;
+}
+
+[class="promin"]{
+    color: coral;
+}
