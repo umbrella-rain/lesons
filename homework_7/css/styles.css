@@ -1,0 +1,175 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700,display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,400,500,700,display=swap);
+
+
+body{
+    font-family: "Poppins", sans-serif; 
+    color: #637381;  
+}
+[class*="_container"]{
+    margin: 0 auto;
+    max-width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title{
+    background: url("../img/title.jpg") 50% / cover no-repeat;
+    min-height: 600px;
+}
+
+.text_container{
+    padding-top: 330px;
+    line-height: 1.67;
+    color:#E5E5E5;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.title_text{
+    color: #F8F9FA;
+	font-size: 25px;
+	line-height: 1.6; 
+	max-width: 605px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+.date{
+    padding-bottom: 25px;
+}
+
+.subtitle{  
+    background: url("../img/area.jpg");
+    font-family: 'Inter', sans-serif;
+	background:  linear-gradient(115deg, rgba(244, 247, 255, 0) 63%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%), linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%) #f4f7ff;
+	background-size: cover;
+	background-position: 50%;
+	min-height: 560px;
+	color: #637381;
+}
+
+
+.subtitle_container{
+    background: url("../img/speaker.jpg") 95% 50% / auto no-repeat;
+    min-height: 560px;
+}
+
+
+.title-text_container{
+    color: #637381;
+    padding-top: 145px;
+    line-height: 1.25;
+    font-family: "Inter" sans-serif;
+}
+
+
+.title-text_container p{
+    margin-bottom: 40px;
+}
+
+.cost{
+    font-weight: 700;
+    color: #3056D3;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 36px;
+    color: #212B36;
+    margin-bottom: 40px;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #3056D3;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.list{
+    background: linear-gradient(37deg, rgba(2,0,36,1) 6%, rgba(121,112,9,1) 20%, rgba(128,108,48,1) 31%, rgba(124,80,114,1) 39%, rgba(132,96,146,1) 48%, rgba(108,147,157,1) 60%, rgba(164,98,166,1) 81%, rgba(0,212,255,1) 100%);
+}
+
+.list_container{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+
+.list_text{
+    margin-bottom: 60px;
+}
+
+ul{
+    display: inline-block;
+}
+
+.under_list{
+    padding-top: 50px;
+    font-family: "Inter" sans-serif;
+    color: #212B36;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 45px;
+}
+
+.circle{
+    margin-right: 136px;
+}
+
+.circle li {
+    line-height: 0.94;
+    margin-bottom: 18px;
+    padding-left: 18px;
+    background: url(../img/point.jpg) 0 3px / 8px no-repeat;
+}
+.check-blue {
+    margin-right: 74px;
+}
+
+.check_blue li {
+    background: url(../img/pointwiththing.jpg) 0 0 / 20px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+}
+.check_green li {
+    background: url(../img/pointwithsrcondthing.jpg) 0 0 / 20px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+}
+.check_red {
+    margin-right: 91px;
+}
+
+.check_red li {
+    background: url(../img/cross-circle.jpg) 0 0 / 20px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+}
+.arrow {
+    margin-right: 74px;
+}
+
+.arrow li {
+    background: url(../img/arrow.jpg) 0 0 / 20px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+}
+.star li {
+    background: url(../img/star.jpg) 0 0 / 20px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+}
