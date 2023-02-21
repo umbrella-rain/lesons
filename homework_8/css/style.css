@@ -1,0 +1,272 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700,display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,400,500,700,display=swap);
+
+
+body{
+    font-family: "Poppins", sans-serif; 
+    color: #637381;
+}
+[class*="_container"]{
+    margin: 0 auto;
+    max-width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+.title{
+    background: url("../img/title.jpg") 50% / cover no-repeat;
+    min-height: 600px;
+}
+
+.text_container{
+    padding-top: 330px;
+    line-height: 1.67;
+    color:#E5E5E5;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 101px;
+}
+
+.title_text{
+    color: #F8F9FA;
+    font-size: 25px;
+    line-height: 1.6; 
+    max-width: 605px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.date{
+    margin-bottom: 25px;
+}
+
+.subtitle{  
+    font-family: "Inter", sans-serif;
+    background:  linear-gradient(115deg, rgba(244, 247, 255, 0) 63%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%), linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%, rgba(244, 247, 255, 0) 100%) #f4f7ff;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 560px;
+    color: #637381;
+    margin-bottom: 100px;
+}
+
+
+.subtitle_container{
+    background: url("../img/speaker.jpg") 95% 50% / auto no-repeat;
+    min-height: 560px;
+}
+
+
+.subtitle-text{
+    max-width: 570px;
+    color: #637381;
+    padding-top: 140px;
+    line-height: 1.25;
+    font-family: "Inter", sans-serif;
+}
+
+
+.title-text_container p{
+    margin-bottom: 40px;
+}
+
+.cost{
+    margin-bottom: 32px;
+    font-weight: 700;
+    color: #3056D3;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 36px;
+    color: #212B36;
+    margin-bottom: 40px;
+}
+
+.second{
+    margin-bottom: 46px;
+}
+
+
+.button{
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #3056D3;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 30px;
+    transition-duration: 500ms;
+    transition-property: transform, background-color;
+    box-shadow: 2px 2px 5px 4px #69798a;
+}
+
+
+.button:hover{
+    background-color: #4a6078;
+    text-decoration: underline;
+    transform: scale(0.9);
+    box-shadow: 2px 2px 5px 1px #69798a;
+}
+
+.button:active{
+    background-color: #637381;
+}
+
+
+.list_conntainer{
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1144px;
+    padding-top: 50px;
+}
+
+.list_text{
+    margin-bottom: 50px;
+}
+
+.list_text div{
+    display: inline-block;
+}
+.list_1 ul{
+    margin-right: 50px;
+}
+.sublist_1 li{
+    margin-bottom: 10px;
+}
+
+.sublist_1 li::before{
+    content: "";
+    background: url("../img/Ellipse\ 2744.svg") 0 0 no-repeat; 
+    padding-left: 25px;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    width: 16px;
+    min-height: 16px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.sublist_1 li:hover::before{
+    transform: scale(1.5);
+}
+
+.sublist_2{
+    margin-right: 50px;
+}
+
+
+.list_2 ul{
+    margin-right: 50px;
+}
+.sublist_2 li{
+    margin-bottom: 10px;
+}
+
+.sublist_2 li{
+    background: url("../img/checkmark-circle\ (2)\ 1.svg") 0 0 / 20px no-repeat;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+    transition-duration: 500ms;
+}
+
+.sublist_2 li:hover{
+    transition-duration: 500ms;
+    transition-property: transform, background-color;
+    transform: scale(0.9);
+}
+
+.list_3 ul{
+    margin-right: 50px;
+}
+
+.sublist_3 li{
+    margin-bottom: 10px;
+}
+
+.sublist_3 li::before{
+    content: "";
+    background: url("../img/Group.svg") 0 0 no-repeat; 
+    padding-left: 25px;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    width: 16px;
+    min-height: 16px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.sublist_3 li:hover::before{
+    transform: scale(1.5);
+}
+
+.list-text_2 div{
+    display: inline-block;
+}
+
+.row ul{
+    margin-right: 50px;
+}
+.row_1 li{
+    margin-bottom: 10px;
+}
+
+.row_1 li::before{
+    content: "";
+    background: url("../img/cross-circle\ \(1\)\ 1.svg") 0 0 no-repeat; 
+    padding-left: 25px;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    width: 16px;
+    min-height: 16px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.row_1 li:hover::before{
+    transform: scale(1.5);
+}
+
+.title_row ul{
+    margin-right: 50px;
+}
+.row_2 li{
+    margin-bottom: 10px;
+}
+
+.row_2 li{
+    background: url("../img/arrow-right\ \(7\)\ 1.svg") 0 0 / 20px no-repeat;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-top: 2px;
+    min-height: 20px;
+    transition-duration: 500ms;
+}
+.row_2 li:hover{
+    transform: scale(0.9);
+}
+
+.sub-title_row ul{
+    margin-right: 50px;
+}
+.row_3 li{
+    margin-bottom: 10px;
+}
+
+.row_3 li::before{
+    content: "";
+    background: url("../img/star\ \(1\)\ 1.svg") 0 0 no-repeat; 
+    padding-left: 25px;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    width: 16px;
+    min-height: 16px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.row_3 li:hover::before{
+    transform: scale(1.5);
+}
