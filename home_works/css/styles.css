@@ -1,0 +1,150 @@
+@import url("./resset.css");
+@import url(https://fonts.googleapis.com/css?family=Inter:300,500,700,&display);
+
+
+body{
+    background: #E5E5E5;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #212B36;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+[class*="__container"] {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header-logo{
+    margin-right: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-items > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-item {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.menu-link{
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 2px;
+}
+
+.menu-link--individual{
+    content: "";
+    background: url("../img/Vector.svg") 150px 17px no-repeat #F4F7FF;
+    width: 172px;
+    height: 52px;
+    text-align: center;
+    background-position: 0 5;
+    border-radius: 5px;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+.sub-menu li:hover{
+    color: #3056D3;
+}
+
+.sub-menu li{
+    color: #637381;
+}
+
+.menu-item:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 20px;
+}
+
+.menu__sub-menu {   
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 15px;
+    min-width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+.sub-menu {
+
+}
+
+.sub-menu__item {
+
+}
+
+.sub-menu__item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.sub-menu__link {
+
+}
+
+.sub-menu__link--special{
+
+    
+}
+
+
+.sub-nav-menu {
+
+}
+
+.sub-nav-items {
+
+}
+
+.sub-nav-menu--link {
+
+}
+
+.sub-nav-menu--title {
+
+}
