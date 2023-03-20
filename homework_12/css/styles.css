@@ -1,0 +1,315 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,);
+
+
+
+body{
+    font-family: "Roboto", serif;
+    color: #fff;
+    background-color: #404040;
+}
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+
+[class*="_container"]{
+    margin: 0 auto;
+    max-width: 1230px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.main-transitions{
+    margin-bottom: 150px;
+}
+
+.title{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+
+
+.transitions div:not(:last-child){
+    margin-right: 30px;
+}
+
+.transitions{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.transitions div{
+    display: inline-block;
+    background-color: #585454;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px
+}
+.transitions p{
+    padding-top: 90px;
+}
+
+.translate:hover{
+    transform: translate(-30px, 15px);
+    transition: all 0.5s;
+}
+
+.scale:hover{
+    transform: scale(0.8, -1);
+    transition: all 0.5s;
+}
+
+.scale{
+    padding-bottom: 90px;
+}
+
+.rotate:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
+.skew:hover{
+    transform: skew( 15deg, -25deg);
+    transition: all 0.5s;
+}
+
+.transform-orgin{
+    transform-origin: bottom right;
+}
+
+.transform-orgin:hover{
+    transform: rotate(50deg);
+    transition: all 0.5s;
+}
+
+
+.transitions-3d div:not(:last-child){
+    margin-right: 30px;
+}
+
+.transitions-3d{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.transitions-3d div{
+    display: inline-block;
+    background-color: #585454;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px
+}
+.transitions-3d p{
+    padding-top: 90px;
+}
+
+
+.sub-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.content-translate3d{
+    perspective: 200px;
+}
+
+
+.translate-3d:hover{
+    transform: translate3D(20px, -20px, 20px);
+    transition: all 0.5s;
+}
+
+
+.content-scale3d:hover{
+    transform: scale3d(0.7, 1.2, 2);
+    transition: all 0.5s;
+}
+
+.content-rotate3d:hover{
+    transform: rotate3d(0.7, 1, 2, 60deg);
+    transition: all 0.5s;
+}
+
+.main-car{
+    padding-bottom: 150px;
+}
+
+.car{
+    position: relative;
+    margin: 0 auto;
+    border-radius: 15px 15px 0 0;
+    width: 500px;
+    height: 400px;
+    z-index: 1;
+    background-color: rgb(86, 6, 54);
+    
+}
+
+.roof{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px 15px 0 0;
+    background-color: red;
+    width: 500px;
+    height: 70px;
+}
+
+.top-light{
+    position: absolute;
+    top: 200px;
+    right: -15px;
+    border-radius: 50px;
+    background-color: #c7ca11f4;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
+
+.bottom-light{
+    position: absolute;
+    top: 270px;
+    right: -15px;
+    border-radius: 50px;
+    background-color: #c7ca11f4;
+    width: 50px;
+    height: 50px;
+}
+
+
+.window-left{
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    border-radius: 15px 15px 0 0;
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}
+
+.window-right{
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    border-radius: 15px 15px 0 0;
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}
+
+
+.wheel-left{
+    position: absolute;
+    top: 390px;
+    left: 0px;
+    border-radius: 70px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: dashed brown;
+}
+
+
+.wheel-left:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+
+.wheel-right{
+    position: absolute;
+    top: 390px;
+    right: 0px;
+    border-radius: 70px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border: dashed brown;
+}
+
+.wheel-right:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.exhaust{
+    position: absolute;
+    top: 1200px;
+    left: 460px;
+    background-color: #0a0eef;
+    width: 55px;
+    height: 25px;
+}
+
+.tip{
+    position: absolute;
+    top: 1200px;
+    left: 450px;
+    background-color: #000000;
+    width: 10px;
+    height: 25px;
+}
+
+.spoiler{
+    position: absolute;
+    top: 800px;
+    left: 370px;
+    background-color: #36fb04;
+    width: 50px;
+    height: 170px;
+    transform: rotate(192deg);
+}
+
+.vintage{
+    position: absolute;
+    top: 920px;
+    left: 370px;
+    background-color: #000000;
+    width: 10px;
+    height: 100px;
+    transform: rotate(109deg);
+}
+
+.vintage-1{
+    position: absolute;
+    top: 750px;
+    left: 405px;
+    background-color: #000000;
+    width: 10px;
+    height: 100px;
+    transform: rotate(109deg);
+}
+
+.stick-top{
+    position: absolute;
+    top: 850px;
+    left: 450px;
+    background-color: #36fb04;
+    width: 10px;
+    height: 120px;
+    transform: rotate(110deg);
+}
+
+.stick-bottom{
+    position: absolute;
+    top: 800px;
+    left: 450px;
+    background-color: #1efb05;
+    width: 10px;
+    height: 120px;
+    transform: rotate(110deg);
+}
