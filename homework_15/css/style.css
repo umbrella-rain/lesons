@@ -23,22 +23,23 @@ body{
 }
 .services__header {
 }
-.header-services {
+.servises__header {
     display: flex;
     flex: 0 1 480px;
     position: relative;
 }
-.header-services__achievement {
+.servises__achievement {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     color: #000000;
-    padding: 0 480px 0 0;
+    padding: 105px 480px 45px 0;
+
 }
-.header-services__achievement::after{
+.servises__achievement::after{
     content: "";
     position: absolute;
-    top: 45%;
+    top: 65%;
     width: 464px;
     height: 1px;
     border: 2px solid #000000;
@@ -46,37 +47,22 @@ body{
     
 }
 
-.main-services{
+.servises__list {
     display: flex;
-    
+    row-gap: 40px;
+    flex-direction: column;
 }
 
-.services__main{
+.servises__item{
     display: flex;
     gap: 120px;
-}
-
-
-.main-services__img img {
-    min-width: 100%;
-}
-.main-services__content{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 32px;
 }
 
-.main-services__title {
+.servises__title{
     font-weight: 600;
     font-size: 24px;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #333333;
-
-}
-.main-services__subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
+    margin: 0 0 20px 0;
 }
